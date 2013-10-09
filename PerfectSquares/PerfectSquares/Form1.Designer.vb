@@ -28,9 +28,10 @@ Partial Class Form1
         '
         'btnDisplay
         '
-        Me.btnDisplay.Location = New System.Drawing.Point(159, 37)
+        Me.btnDisplay.Location = New System.Drawing.Point(147, 31)
+        Me.btnDisplay.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnDisplay.Name = "btnDisplay"
-        Me.btnDisplay.Size = New System.Drawing.Size(333, 35)
+        Me.btnDisplay.Size = New System.Drawing.Size(296, 28)
         Me.btnDisplay.TabIndex = 0
         Me.btnDisplay.Text = "Display First Perfect Squares"
         Me.btnDisplay.UseVisualStyleBackColor = True
@@ -38,19 +39,21 @@ Partial Class Form1
         'lstResult
         '
         Me.lstResult.FormattingEnabled = True
-        Me.lstResult.ItemHeight = 20
-        Me.lstResult.Location = New System.Drawing.Point(27, 113)
+        Me.lstResult.ItemHeight = 16
+        Me.lstResult.Location = New System.Drawing.Point(24, 90)
+        Me.lstResult.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.lstResult.Name = "lstResult"
-        Me.lstResult.Size = New System.Drawing.Size(624, 344)
+        Me.lstResult.Size = New System.Drawing.Size(555, 276)
         Me.lstResult.TabIndex = 1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(683, 509)
+        Me.ClientSize = New System.Drawing.Size(607, 407)
         Me.Controls.Add(Me.lstResult)
         Me.Controls.Add(Me.btnDisplay)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form1"
         Me.Text = "Perfect Squares"
         Me.ResumeLayout(False)
